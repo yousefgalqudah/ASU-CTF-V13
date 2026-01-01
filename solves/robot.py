@@ -12,7 +12,7 @@ def predict(seed):
 
 
 p = process("./robot")
-#p = remote("20.199.41.155",5051)
+#p = remote("ip",port)
 """
 1. Calculate offset to seed
 """
